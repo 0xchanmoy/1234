@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #000; /* Black background */
+    color: white; /* White font */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #000; /* Black header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid green; /* Green border between sections */
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+section {
+    padding: 20px;
+    border-bottom: 2px solid green; /* Green border for sections */
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: green; /* Green heading */
+}
+
+a {
+    color: green; /* Green links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style for the list items */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    padding: 5px 0;
+}
