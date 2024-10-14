@@ -13,17 +13,21 @@ body {
 
 header {
     background-color: #000; /* Black header */
-    color: white;
     padding: 20px;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     border-bottom: 4px solid green; /* Green border between sections */
+}
+
+.header-text {
+    text-align: left;
 }
 
 .profile-photo {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    margin-bottom: 20px;
 }
 
 section {
