@@ -1,59 +1,85 @@
-/* Global Styles */
-body {
-    background-color: #000; /* Black background */
-    font-family: 'Roboto', sans-serif; /* Robotic font */
+* {
     margin: 0;
     padding: 0;
-    color: white;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
     line-height: 1.6;
 }
 
-/* Header */
 header {
-    background-color: #008000; /* Green background */
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
     text-align: center;
-    padding: 20px;
 }
 
 header h1 {
+    margin: 0;
     font-size: 2.5rem;
-    margin-bottom: 10px;
 }
 
 header p {
     font-size: 1.2rem;
-    margin: 0;
+    margin-top: 10px;
 }
 
-/* Section Styles */
-section {
-    padding: 20px;
+nav ul {
+    list-style: none;
+    margin-top: 20px;
 }
 
-h2 {
-    border-bottom: 2px solid #00ff00; /* Green underline for section titles */
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.section h2 {
     margin-bottom: 20px;
     font-size: 2rem;
 }
 
-.education-item, .experience-item {
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
     margin-bottom: 20px;
 }
 
-/* Skills and Projects */
-ul {
-    list-style-type: square;
-    padding-left: 20px;
+a {
+    color: #333;
+    text-decoration: none;
 }
 
-li {
-    margin-bottom: 10px;
+a:hover {
+    color: #007bff;
 }
 
-/* Footer */
 footer {
-    background-color: #1a1a1a;
+    background: #333;
+    color: #fff;
     text-align: center;
-    padding: 10px;
-    color: #00ff00; /* Green text for footer */
+    padding: 20px 0;
+    margin-top: 20px;
 }
